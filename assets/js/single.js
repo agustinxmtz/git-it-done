@@ -70,8 +70,7 @@ var getRepoIssues = function(repo) {
       // check if issue is an actual issue or a pull request
       if (issues[i].pull_request) {
         typeEl.textContent = "(Pull request)";
-      }
-      else {
+      } else {
         typeEl.textContent = "(Issue)";
       }
   
